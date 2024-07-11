@@ -20,15 +20,15 @@
 
 @keyframes blur {
     0% {
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(128px);
         transition: all 1.0s ease-in-out;
     }
     50% {
-        backdrop-filter: blur(100px);
+        backdrop-filter: blur(10px);
         transition: all 1.0s ease-in-out;
     }
     100% {
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(128px);
         transition: all 1.0s ease-in-out;
     }
 }
